@@ -17,7 +17,7 @@ generator = cms.EDFilter("Pythia8ConcurrentGeneratorFilter",
         pythia8CP5SettingsBlock,
         processParameters = cms.vstring(
             'HardQCD:all = on',
-            'PhaseSpace:pTHatMin = 15.'
+            'PhaseSpace:pTHatMin = 15.',
             'PhaseSpace:pTHatMax = 2681.',
             'PhaseSpace:bias2Selection = on',
             'PhaseSpace:bias2SelectionPow = 4.5',
